@@ -88,6 +88,6 @@ WHERE id NOT IN (
     GROUP BY duplicate_column
 );
 
--- Delete old records
+-- Delete old records (adjust the 90 days interval as needed)
 DELETE FROM table_name
 WHERE created_at < NOW() - INTERVAL '90 days';
