@@ -1,4 +1,4 @@
-# OS generated files
+# Operating System Files
 .DS_Store
 .DS_Store?
 ._*
@@ -6,44 +6,78 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# IDE and Editor files
-.vscode/
-.idea/
 *.swp
 *.swo
 *~
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
 .project
 .classpath
 .settings/
 
-# Language specific
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-*.class
-*.jar
-*.war
-target/
+# Build and Compilation
 *.o
+*.obj
 *.exe
 *.out
+*.class
+*.pyc
+*.pyo
+__pycache__/
+*.so
+*.dll
+*.dylib
 *.a
-.go-build-cache/
+*.lib
 
-# Build artifacts
-build/
-dist/
+# Package Managers
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Python
+*.py[cod]
+*$py.class
+*.egg
 *.egg-info/
-.cache/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+env/
+ENV/
 
-# Temporary files
-*.tmp
-*.temp
+# Java
+target/
+*.jar
+*.war
+*.ear
+
+# Logs
 *.log
+logs/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# Security
+.env
+.env.local
+*.key
+*.pem
+credentials.json
+secrets.json
